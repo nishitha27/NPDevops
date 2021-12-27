@@ -1,0 +1,7 @@
+CREATE TABLE [dbo].[DOCUMENT]
+(
+[IDNUMBER] [int] NULL,
+[USERNAME] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[PHONENUMBER] [varchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+) ON [PRIMARY]
+GO
